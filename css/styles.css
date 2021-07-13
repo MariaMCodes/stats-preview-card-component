@@ -1,0 +1,86 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    width: 1000px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 150%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.wrapper {
+    max-width: 1440px;
+    padding: 40px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left-panel {
+    width: 460px;
+    height: 400px;
+    padding: 50px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.desat-blue {
+    background-color: hsl(244, 38%, 16%);
+}
+
+#purple {
+    color: rgb(170, 81, 243);
+}
+
+h1 {
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px 10px 10px 0;
+}
+
+p {
+    padding-top: 20px;
+}
+
+table {
+    text-align: left;
+    padding-top: 50px;
+}
+
+th {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+th,
+td {
+    padding: 0 50px 0 0;
+}
+
+#row2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+#right-panel {
+    float: right;
+}
+
+img {
+    width: 460px;
+    height: 400px;
+    float: right;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
